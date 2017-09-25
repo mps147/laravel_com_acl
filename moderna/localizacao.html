@@ -1,0 +1,253 @@
+<!DOCTYPE HTML><head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+
+    <title>Epsilon Mobile Framework - Version 2.0</title>
+
+
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <link href="styles/framework.css"  rel="stylesheet" type="text/css">
+
+    <link href="styles/owl.theme.css"  rel="stylesheet" type="text/css">
+
+    <link href="styles/swipebox.css" rel="stylesheet" type="text/css">
+
+    <link href="styles/font-awesome.css"  rel="stylesheet" type="text/css">
+
+    <link href="styles/animate.css"	 rel="stylesheet" type="text/css">
+
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+
+    <script type="text/javascript" src="scripts/jqueryui.js"></script>
+
+    <script type="text/javascript" src="scripts/framework.plugins.js"></script> 
+
+    <script type="text/javascript" src="scripts/custom.js"></script>
+
+    <style>
+        #right-panel {
+            font-family: 'Roboto','sans-serif';
+            line-height: 30px;
+        }
+
+        #right-panel select, #right-panel input {
+            font-size: 15px;
+        }
+
+        #right-panel select {
+            width: 100%;
+        }
+
+        #right-panel i {
+            font-size: 12px;
+        }
+
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+
+        #right-panel {
+            margin: 20px 0px;
+            border-width: 2px;
+            width: 100%;
+            height: 100%;
+            float: left;
+            text-align: left;
+            padding-top: 0;
+        }
+
+        #directions-panel {
+            margin-top: 10px;
+            background-color: #FFEE77;
+            padding: 10px;
+        }
+
+        div, a, p, img, blockquote, form, fieldset, textarea, input, label, iframe, code, pre {
+            display: block;
+            position:relative;
+            overflow: visible;
+        }
+
+        .btn-tracarRota{
+            margin: 10px;
+        }
+    </style>  
+</head>
+
+<body> 
+
+    <div id="preloader">
+
+        <div id="status">
+
+            <p class="center-text">
+
+                Carregando o conteúdo...
+
+                <!--<em>Loading depends on your connection speed!</em>-->
+            </p>
+        </div>
+    </div>    
+
+    <div class="all-elements">
+        <!--HEADER-->
+        <div class="snap-drawers">
+
+            <!-- Left Sidebar -->
+            <div class="snap-drawer snap-drawer-left">
+
+                <div class="sidebar-header">
+
+                    <a href="https://www.facebook.com/PousadaModerna/" target="_blank"><i class="fa fa-facebook"></i></a>
+
+                    <!--<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.villatambo.com.br%2F&ref_src=twsrc%5Etfw&screen_name=villatambo&tw_p=followbutton" target="_blank"><i class="fa fa-twitter" ></i></a>-->
+
+                    <a href="tel:1236631068"><i class="fa fa-phone"></i></a>
+
+                    <a href="tel:1236632111"><i class="fa fa-phone"></i></a>
+
+                    <a href="mailto:reservas@pousadamoderna.com.br"><i class="fa fa-envelope-o"></i></a>
+
+                    <a class="sidebar-close" href="#"><i class="fa fa-times"></i></a>
+
+                </div>
+
+                <a href="#" class="sidebar-logo"></a>
+
+                <div class="sidebar-decoration"></div>
+
+                <ul class="sidebar-menu">
+
+                    <li><a href="index.html"><i class="fa fa-angle-right"></i>Home<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="apousada.html"><i class="fa fa-angle-right"></i>A Pousada<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="cafe.html"><i class="fa fa-angle-right"></i>Café<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="suites.html"><i class="fa fa-angle-right"></i>Suítes<i class="fa fa-circle"></i></a></li>
+
+                    <li class="active-menu"><a href="localizacao.html"><i class="fa fa-angle-right"></i>Localização<i class="fa fa-circle"></i></a></li>  
+                    
+                    <li><a href="roteiros.html"><i class="fa fa-angle-right"></i>Roteiros<i class="fa fa-circle"></i></a></li> 
+
+                    <li><a href="contato.html"><i class="fa fa-angle-right"></i>Contato<i class="fa fa-circle"></i></a></li>  
+
+                    <li><a href="#" class="sidebar-close"><i class="fa fa-times"></i>Close<i class="fa fa-circle"></i></a></li>  
+
+                </ul>
+
+                <div style="width: 100%; text-align: center;">
+                    <center>
+                        <a href="http://sitenivel.com.br" target="_blank">
+                            <img src="images/logo_sitenivel_transp.png" style="width: 100px; height: auto;" alt="logo sitenivel"/>
+                        </a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Content-->
+
+        <div id="content" class="snap-content">         
+
+            <div class="header">
+                <a href="#" class="sidebar-deploy"><i class="fa fa-navicon"></i></a>
+                <h3>Localização</h3>
+                <a href="contato.html" class="contact-deploy"><i class="fa fa-envelope-o"></i></a>
+            </div>       
+
+            <div class="content">       
+
+                <div class="container large-title no-bottom">
+
+                    <p>
+                        Rua Cinco, nº22 - Vila Inglesa Campos do Jordão - SP            
+                    </p>
+                    <p>
+                        Recomendamos que não utilize GPS, pois existem outras ruas na cidade com o mesmo nome.
+                    </p>
+                </div>
+
+                <div class="decoration"></div>
+            </div>    
+
+            <div class="btn-tracarRota">
+                <p>
+                    <i class="fa fa-warning" style="color: red"></i> Utilize o botão de traçar rota logo após passar o <strong>Supermercado Roma</strong>
+                </p>
+                <a class="button button-blue" href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.75107222,-45.56989387" target="_blank">
+                    <i class="fa fa-map-marker"></i>Traçar rota com GPS
+                </a>
+            </div>
+
+            <!-- Content Heading -->    
+            <div id="map"></div>
+            <div id="right-panel">
+                <div id="directions-panel"></div>
+            </div>
+            <div class="decoration"></div>
+        </div>
+    </div> 
+    <script>
+        function initMap() {
+            var directionsService = new google.maps.DirectionsService;
+            var directionsDisplay = new google.maps.DirectionsRenderer;
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: {lat: -22.7428673, lng: -45.5963557},
+                scrollwheel: false
+            });
+            directionsDisplay.setMap(map);
+
+            calculateAndDisplayRoute(directionsService, directionsDisplay);
+        }
+
+        function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+
+            directionsService.route({
+                origin: {lat: -22.75501046, lng: -45.60982704},
+                destination: {lat: -22.727940, lng: -45.574183},
+
+                optimizeWaypoints: true,
+                travelMode: 'DRIVING'
+            }, function (response, status) {
+                if (status === 'OK') {
+                    directionsDisplay.setDirections(response);
+                    var route = response.routes[0];
+                    var summaryPanel = document.getElementById('directions-panel');
+                    summaryPanel.innerHTML = '';
+                    // For each route, display summary information.
+                    for (var i = 0; i < route.legs.length; i++) {
+                        var routeSegment = i + 1;
+                        summaryPanel.innerHTML += '<b>Seguimento de Rotas ' + routeSegment +
+                                '</b><br>';
+                        summaryPanel.innerHTML += route.legs[i].start_address + ' <br> <strong>Segue:</strong> <br> ';
+                        summaryPanel.innerHTML += route.legs[i].end_address + ': ';
+                        summaryPanel.innerHTML += route.legs[i].distance.text + '<br><br>';
+                    }
+                } else {
+                    window.alert('Directions request failed due to ' + status);
+                }
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGal8qjywt5Aq-dOiG_4snUzfqpUoX_o8&callback=initMap">
+    </script>
+</body>
+
+
+

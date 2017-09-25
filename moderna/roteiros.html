@@ -1,0 +1,1566 @@
+<!DOCTYPE HTML><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title>Epsilon Mobile Framework - Version 2.0</title>
+
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+    <link href="styles/framework.css"  rel="stylesheet" type="text/css">  
+
+
+    <link href="styles/owl.theme.css"  rel="stylesheet" type="text/css">
+
+    <link href="styles/swipebox.css" rel="stylesheet" type="text/css">
+
+    <link href="styles/font-awesome.css"  rel="stylesheet" type="text/css">
+
+    <link href="styles/animate.css"	 rel="stylesheet" type="text/css">
+
+    <link href="styles/roteiro.css" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jqueryui.js"></script>
+    <script type="text/javascript" src="scripts/framework.plugins.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <style>
+        .tab-content{
+            display: block;
+        }
+    </style>
+</head>
+<body> 
+
+    <div id="preloader">
+        <div id="status">
+            <p class="center-text">
+                Carregando o conteúdo...
+                <!--<em>Loading depends on your connection speed!</em>-->
+            </p>
+        </div>
+    </div>
+
+    <div class="gallery-fix"></div> <!-- Important for all pages that have galleries or portfolios -->
+
+    <div class="all-elements">
+
+        <div class="snap-drawers">
+
+            <!-- Left Sidebar -->
+            <div class="snap-drawer snap-drawer-left">
+
+                <div class="sidebar-header">
+
+                    <a href="https://www.facebook.com/PousadaModerna/" target="_blank"><i class="fa fa-facebook"></i></a>
+
+                    <!--<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.villatambo.com.br%2F&ref_src=twsrc%5Etfw&screen_name=villatambo&tw_p=followbutton" target="_blank"><i class="fa fa-twitter" ></i></a>-->
+
+                    <a href="tel:1236631068"><i class="fa fa-phone"></i></a>
+                    
+                    <a href="tel:1236632111"><i class="fa fa-phone"></i></a>
+
+                    <a href="mailto:reservas@pousadamoderna.com.br"><i class="fa fa-envelope-o"></i></a>
+
+                    <a class="sidebar-close" href="#"><i class="fa fa-times"></i></a>
+
+                </div>
+
+                <a href="#" class="sidebar-logo"></a>
+
+                <div class="sidebar-decoration"></div>
+
+                <ul class="sidebar-menu">
+
+                    <li><a href="index.html"><i class="fa fa-angle-right"></i>Home<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="apousada.html"><i class="fa fa-angle-right"></i>A Pousada<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="cafe.html"><i class="fa fa-angle-right"></i>Café<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="suites.html"><i class="fa fa-angle-right"></i>Suítes<i class="fa fa-circle"></i></a></li>
+
+                    <li><a href="localizacao.html"><i class="fa fa-angle-right"></i>Localização<i class="fa fa-circle"></i></a></li>  
+                    
+                    <li class="active-menu"><a href="roteiros.html"><i class="fa fa-angle-right"></i>Localização<i class="fa fa-circle"></i></a></li>       
+
+                    <li><a href="contato.html"><i class="fa fa-angle-right"></i>Contato<i class="fa fa-circle"></i></a></li>  
+
+                    <li><a href="#" class="sidebar-close"><i class="fa fa-times"></i>Close<i class="fa fa-circle"></i></a></li>  
+                </ul>
+
+                <div style="width: 100%; text-align: center;">
+                    <center>
+                        <a href="http://sitenivel.com.br" target="_blank">
+                            <img src="images/logo_sitenivel_transp.png" style="width: 100px; height: auto;" alt="logo sitenivel"/>
+                        </a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Content-->
+        <div id="content" class="snap-content">         
+            <div class="header">
+                <a href="#" class="sidebar-deploy"><i class="fa fa-navicon"></i></a>
+                <h3>ROTEIROS</h3>
+                <a href="contato.html" class="contact-deploy"><i class="fa fa-envelope-o"></i></a>
+            </div>
+            <div class="decoration"></div>
+
+            <div class="container">       
+
+                <div role="tabpanel" class="row">
+                    <img  class='img-responsive' src='images/RoteirosApp.jpg' alt='Tour Title' title='Tour title'/>
+                    <ul id="rot-tabs" class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#2013" data-toggle="tab" role="tab" aria-controls="tab1" aria-expanded="true"><strong>ROTEIRO 1</strong></a></li>
+                        <li role="presentation" class=""><a href="#2014" class="nav-tabs" aria-controls="tab2" role="tab" data-toggle="tab" aria-expanded="false"><strong>ROTEIRO 2</strong></a></li>
+                        <li role="presentation" class=""><a href="#2015" class="nav-tabs" aria-controls="tab3" role="tab" data-toggle="tab" aria-expanded="false"><strong>ROTEIRO 3</strong></a></li>
+                        <li role="presentation" class=""><a href="#2016" class="nav-tabs" aria-controls="tab4" role="tab" data-toggle="tab" aria-expanded="false"><strong>ROTEIRO 4</strong></a></li>
+                        <li role="presentation" class=""><a href="#rotv" data-toggle="tab" role="tab" aria-controls="tab5" aria-expanded="false"><strong>ROTEIRO 5</strong></a></li>
+                        <li role="presentation" class=""><a href="#rotvi" data-toggle="tab" role="tab" aria-controls="tab6" aria-expanded="false"><strong>ROTEIRO 6</strong></a></li>
+                    </ul>
+                </div>
+
+                <!-- *********************
+                     ***** ROTEIRO I *****
+                     ********************* -->
+
+                <div id="tabContent1" class="tab-content loc-rot row">
+
+                    <div role="tabpanel" class="tab-pane fade active in" id="2013">
+
+                        <div>
+                            <img src="images/ico/icon-map.png" alt="Ícone de mapa do roteiro" width="80" style="padding-right: 20px;"/>
+                            <p>ROTEIRO 1 - HORTO FLORESTAL</p>
+                        </div>
+
+                        <div id="licitacao2013">
+
+                            <div id="accordion">
+
+                                <div class="panel-group" id="accordion1" role="tablist">
+
+                                    <!-- ***** MORRO DO ELEFANTE ***** -->
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseConvite1"><strong>Morro do Elefante</strong></a>
+                                            </h4>
+                                        </div>
+
+                                        <div id="collapseConvite1" class="panel-collapse collapse">
+
+                                            <div class="panel-body">
+
+                                                <div class="container-fluid">
+
+                                                    <div class="row rotImg">
+                                                        <img class="img-responsive" src="images/roteiro/morro-do-elefante.jpg">
+                                                    </div>
+
+                                                    <div class="row rotDesc">
+                                                        <p>
+                                                            O Morro do elefante é um dos pontos turísticos mais visitados da cidade. Seu nome sida devido a formação da montanha que se assemelha ao contorno de um elefante.
+                                                            Sua atração é a vista que ela disponibiliza da cidade e principalmente da Vila Capivari.
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-map-marker"></i>
+                                                        </div>
+                                                        <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.71330676,-45.56635648" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>Traçar rota com GPS</h3>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ***** FIM MORRO DO ELEFANTE ***** -->
+
+                                    <!-- ***** HÍPICA GOLF ***** -->
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTomadas"><strong>Hípica Golf</strong></a></h4>
+                                        </div>
+
+                                        <div id="collapseTomadas" class="panel-collapse collapse">
+
+                                            <div class="panel-body">
+
+                                                <div class="container-fluid">
+
+                                                    <div class="row rotImg">
+                                                        <img class="img-responsive" src="images/roteiro/hipica.jpg">
+                                                    </div>
+
+                                                    <div class="row rotDesc">
+                                                        <p>
+                                                            O Centro Hípico Golf oferece atendimento personalizado e diferenciado e,
+                                                            em um único contexto, reúne o hipismo clássico ou de lazer, além de um belo restaurante, hospedagem em uma charmosa pousada dentro de um ambiente familiar e tipicamente italiano.
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-map-marker"></i>
+                                                        </div>
+                                                        <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.68874689,-45.5321905" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>Traçar rota com GPS</h3>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-earphone"></i>
+                                                        </div>
+                                                        <a href="tel:1236632719" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>(12) 3663-2719</h3>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-earphone"></i>
+                                                        </div>
+                                                        <a href="tel:1236634044" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>(12) 3663-4044</h3>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ***** FIM HÍPICA GOLF *****-->
+
+                                    <!-- ***** BORBOLETÁRIO FLORES QUE VOAM ***** -->
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#borboletario"><strong>Borboletário Flores que Voam</strong></a></h4>
+                                        </div>
+
+                                        <div id="borboletario" class="panel-collapse collapse">
+
+                                            <div class="panel-body">
+                                                <div class="container-fluid">
+
+                                                    <div class="row rotImg">
+                                                        <img class="img-responsive" src="images/roteiro/Borboletario.jpg">
+                                                    </div>
+
+                                                    <div class="row rotDesc">
+                                                        <p>Escolher espécies de borboletas para criação e conduzí-las para um aumento do número de indivíduos, dentro do borboletário;</p>
+                                                        <p>Repovoar, através de um plano de manejo espécies de borboletas existentes e que já existiram nas imediações da Cidade de Campos do Jordão proporcionando a revitalização parcial da flora da região; </p>
+                                                        <p>Criar um  banco de dados da Fauna de Lepidópteros da região de Campos  do Jordão; </p>
+                                                        <p>Criar um ponto turístico de caráter ecológico-pedagógico, para atingir turistas, moradores da região de Campos do Jordão e estudiosos de todo o Brasil; </p>
+                                                        <p>Propiciar  às  escolas  municipais  e  particulares,  e as universidades da região, mais um pólo para a Educação Ambiental;</p>
+                                                        <p>Enfim, além de ser uma atração turística para a cidade de Campos do Jordão,  ser  um local de estudos, pesquisas e preservação do meio ambiente.</p>
+                                                        <p>O Borboletário  propriamente  dito  é  um  viveiro que  isola  as  borboletas  do  meio  externo, permitindo observação e visitação facilitadas.</p>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-map-marker"></i>
+                                                        </div>
+                                                        <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.6934259,-45.504969" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>Traçar rota com GPS</h3>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-earphone"></i>
+                                                        </div>
+                                                        <a href="tel:1236636444" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>(12) 3663-6444</h3>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ***** FIM BORBOLETÁRIO FLORES QUE VOAM ***** -->
+
+                                    <!-- ***** AVENTURA NO RANCHO ***** -->
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#aventura"><strong>Aventura no Rancho</strong></a></h4>
+                                        </div>
+
+                                        <div id="aventura" class="panel-collapse collapse">
+
+                                            <div class="panel-body">
+
+                                                <div class="container-fluid">
+
+                                                    <div class="row rotImg">
+                                                        <img class="img-responsive" src="images/roteiro/aventura-rancho.jpg">
+                                                    </div>
+
+                                                    <div class="row rotDesc">
+                                                        <p>
+                                                            Fazenda tradicional de Campos do Jordão e área de proteção ambiental,
+                                                            o Rancho Santo Antonio encanta seus visitantes desde a década de 70 e vem trabalhando para o desenvolvimento do turismo na cidade.
+                                                            Em 2003, com a fundação do Aventura no Rancho, entra para o segmento do turismo de aventura com a construção de um dos maiores percursos de arvorismo do Brasil,
+                                                            totalmente em araucárias. Com a missão de divertir, integrar e emocionar todos os seus visitantes oferece qualidade no atendimento, consciência ambiental,
+                                                            colaboradores em treinamento constante, adequação às Normas Técnicas de Turismo de Aventura. Em crescimento constante e sempre inovando as atividades,
+                                                            contamos com a sua visita! Tenha uma aventura segura e inesquecível!
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-map-marker"></i>
+                                                        </div>
+                                                        <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.691465,-45.503474" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>Traçar rota com GPS</h3>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-earphone"></i>
+                                                        </div>
+                                                        <a href="tel:1236637400" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>(12)  3663-7400</h3>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ***** AVENTURA NO RANCHO ***** -->
+
+                                    <!-- ***** HORTO FLORESTAL ****** -->
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#horto"><strong>Horto Florestal</strong></a></h4>
+                                        </div>
+
+                                        <div id="horto" class="panel-collapse collapse">
+
+                                            <div class="panel-body">
+
+                                                <div class="container-fluid">
+
+                                                    <div class="row rotImg">
+                                                        <img class="img-responsive" src="images/roteiro/horto-florestal.jpg">
+                                                    </div>
+
+                                                    <div class="row rotDesc">
+                                                        <p>
+                                                            Criado em 1941, o Horto Florestal de Campos do Jordao possui 8,3 mil hectares de área preservada com uma vegetação de araucárias e coníferas.
+                                                            É uma ótima opção para quem quer passar o dia fazendo algo diferente das tradicionais atrações do Centro de Campos do Jordão, o Capivari. Tem churrasqueiras, lagos, bosques,
+                                                            área de ginástica, viveiros de plantas, duchas, capela, ciclovia, restaurante, loja de artesanato e muitas trilhas. Seu relevo montanhoso chega a 2.007 metros de altitude.
+                                                            A vista é ainda mais panorâmica do alto dos 12 metros da torre de madeira.Visite Campos do Jordão.
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-map-marker"></i>
+                                                        </div>
+                                                        <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.690093,-45.4810799" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>Traçar rota com GPS</h3>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="row fundo">
+                                                        <div class="col-xs-2 col-sm-2 rotIcons">
+                                                            <i class="glyphicon glyphicon-earphone"></i>
+                                                        </div>
+                                                        <a href="tel:1236633762" class="col-xs-10 col-sm-10 rotInfo">
+                                                            <h3>(12)  3663-3762</h3>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ***** FIM HORTO FLORESTAL ****** -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="licitacoes2013"></div>
+                    </div>
+
+                    <!-- **********************
+                         ***** ROTEIRO II *****
+                         ********************** -->
+
+                    <div role="tabpanel" class="tab-pane fade" id="2014">
+                        <div>
+                            <img src="images/ico/icon-map.png" alt="Ícone de mapa do roteiro" width="80" style="padding-right: 20px;"/>
+                            <p>ROTEIRO 2 - DUCHA DE PRATA</p>
+                        </div>
+
+                        <div class="panel-group" id="accordion2" role="tablist">
+
+                            <!-- ***** BOSQUE DO SILÊNCIO ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+                                            <strong>Bosque do Silêncio</strong>
+                                        </a>
+                                    </h4>
+                                </div>
+
+                                <div id="collapseOne2" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/bosque-do-silencio.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Viva uma experiência inesquecível em um dos locais de prática de arborismo mais belos,
+                                                    com 4 opções de atividades e cerca de 2.000 metros de diferentes trilhas suspensas entre as copas das araucárias,
+                                                    a menos de 2 Km do centro turístico de Campos do Jordão. Todas as atividades são acompanhadas de perto por condutores especializados e feitas com equipamentos de segurança.
+                                                    Atividade para crianças a partir de 7, 8 anos, e não tem limite de idade (adulto).
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.733898,-45.571619" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236638375" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3663-8375</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM BOSQUE DO SILÊNCIO ***** -->
+
+                            <!-- ***** DUCHA DE PRATA ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#ducha">
+                                            <strong>Ducha de Prata</strong>
+                                        </a>
+                                    </h4>
+                                </div>
+
+                                <div id="ducha" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/ducha-de-prata.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Formada por duchas artificiais a Ducha de Prata atraí a atenção por sua beleza, nesta canalização desembocam águas vindas do represamento do Ribeirão das Perdizes.
+                                                </p>
+                                                <p>
+                                                    Com adaptação de caminhos que foram feitos para tomar banhos frescos.
+                                                </p>
+                                                <p>
+                                                    Local excelente para tirar fotos em meio às pedras e trilhas, ou simplesmente relaxar escutando o som das águas e dos pássaros.
+                                                </p>
+                                                <p>
+                                                    Local que antigamente banhavam-se hóspedes da antiga e famosa Pensão inglesa.
+                                                </p>
+                                                <p>
+                                                    Este tradicional ponto turístico está localizado no bairro de Vila Inglesa, na estrada para a Vila Capivari.
+                                                </p>
+                                                <p>
+                                                    Além das quedas d’água você encontrará ainda barraquinhas com produtos artesanais e souvenirs, para lembrar-se sempre de sua visita à Campos do Jordão.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.73812073,-45.56911647" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM DUCHA DE PRATA ***** -->
+
+                            <!-- ***** PARQUE FLORESTA ENCANTADA ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#floresta">
+                                            <strong> Parque Floresta Encantada</strong>
+                                        </a>
+                                    </h4>
+                                </div>
+
+                                <div id="floresta" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="panel-body">
+                                            <div class="container-fluid">
+                                                <div class="row rotImg">
+                                                    <img class="img-responsive" src="images/roteiro/floresta-encantada.jpeg">
+                                                </div>
+
+                                                <div class="row rotDesc">
+                                                    <p>
+                                                        O Parque da Floresta Encantada, em Campos do Jordão é um lugar onde adultos e crianças podem brincar juntos, pois a diversão está garantida neste mundo que é de pura magia.
+                                                    </p>
+                                                    <p>
+                                                        Um espaço com várias casinhas temáticas baseadas nos mais famosos contos de histórias infantis, entre eles: Casa das Bruxas, Casa dos Gnomos, Casa dos Coelhos, Casa do Fantasma,
+                                                        Casa da Branca de Neve, Casa dos Anjos, Casa do Papai Noel e Casa das Bonecas
+                                                    </p>
+                                                </div>
+
+                                                <div class="row fundo">
+                                                    <div class="col-xs-2 col-sm-2 rotIcons">
+                                                        <i class="glyphicon glyphicon-map-marker"></i>
+                                                    </div>
+                                                    <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7454058,-45.5660201" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                        <h3>Traçar rota com GPS</h3>
+                                                    </a>
+                                                </div>
+
+                                                <div class="row fundo">
+                                                    <div class="col-xs-2 col-sm-2 rotIcons">
+                                                        <i class="glyphicon glyphicon-earphone"></i>
+                                                    </div>
+                                                    <a href="tel:1236632596" class="col-xs-10 col-sm-10 rotInfo">
+                                                        <h3>(12) 3663-2596</h3>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM PARQUE FLORESTA ENCANTADA ***** -->
+
+                            <!-- ***** PICO DO ITAPEVA ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#pico">
+                                            <strong> Pico do Itapeva </strong>
+                                        </a>
+                                    </h4>
+                                </div>
+
+                                <div id="pico" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/pico-do-itapeva.jpeg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    O Pico do Itapeva é ideal para se contemplar a natureza, fica a 2.030 metros de altitude, onde é possível avistar 15 cidades, todas da região do Vale do Paraíba,
+                                                    entre elas a mais famosa é a cidade de Aparecida (devido ao grande número de fiéis que visitam a Basílica). Conheça os nomes das cidades: Tremembé, Taubaté, Caçapava,
+                                                    São José dos Campos, Pindamonhangaba, Guaratinguetá, Aparecida, Roseira, Lorena, Potim, Cruzeiro, Piquete, Moreira César, Cachoeira Paulista e Eugênio de Melo.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7666047,-45.5226428" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM PICO DO ITAPEVA ***** -->
+                        </div>
+                        <div id="licitacao2014"></div>
+                    </div>
+
+                    <!-- **************************
+                         ***** FIM ROTEIRO II *****
+                         ************************** -->
+
+                    <!-- ***********************
+                         ***** ROTEIRO III *****
+                         *********************** -->
+                    <div role="tabpanel" class="tab-pane fade" id="2015">
+                        <div>
+                            <img src="images/ico/icon-map.png" alt="Ícone de mapa do roteiro" width="80" style="padding-right: 20px;"/>
+                            <p>ROTEIRO 3 - PEDRA DO BAÚ</p>
+                        </div>
+                        <div class="panel-group" id="accordion3" role="tablist">
+
+                            <!-- ***** ECO PARQUE PESCA NA MONTANHA ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3"><strong> Eco Parque Pesca na Montanha </strong></a></h4>
+                                </div>
+
+                                <div id="collapseOne3" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/pesca-da-montanha.png">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    O Ecoparque Pesca na Montanha está localizado nos altos da serra da Mantiqueira, entre Campos do Jordão e São Bento do Sapucaí, estado de São Paulo, a 18 km do centro de ambas as cidades.
+                                                    A estrada é asfaltada e no caminho da Pedra do Baú, atração turística mais visitada da região.
+                                                </p>
+                                                <p>
+                                                    O Ecoparque nasceu do sonho da empresária e jornalista paulistana Monica Simonsen. Cansada da agitação das grandes cidades,
+                                                    separou uma área bem no coração dos 550 alqueires da Fazenda Campista para desenvolver um projeto turístico. Hoje, passados 14 anos, recebe turistas de todo o país e do exterior.
+                                                    Todas as atividades foram planejadas para você relaxar e se divertir.
+                                                </p>
+                                                <p>
+                                                    Cavalos, banhos de cachoeira, ateliers de arte, turismo de aventura, trilhas, arco e flecha, pesca de truta, pousada,
+                                                    restaurante são algumas das opções nos mais de 200 mil metros quadrados de florestas de pinheiros, bosques de mata nativa, lagos e pequenas quedas d’água.
+                                                    Nos passeios e nas trilhas você poderá encontrar esquilos, veados campeiros, o macaco mono-carvoeiro (espécie ameaçada de extinção) e uma grande variedade de pássaros.
+                                                    Sem falar na exuberante vegetação do clima tropical de altitude, composta de pinhos bravos, araucárias e orquídeas raras.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.6452295,-45.6190699" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:12997165017" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 99716-5017</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM ECO PARQUE PESCA NA MONTANHA ***** -->
+
+                            <!-- ***** CACHOEIRA DO TOLDI ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion3" href="#cachoeira"><strong> Cachoeira do Toldi </strong></a></h4>
+                                </div>
+
+                                <div id="cachoeira" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/cachoeira-do-toldi.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Distante 25km da cidade, a estrada de acesso é íngrime e cheia de pedras. Possui uns 20m de queda e a água é abundante e límpida.
+                                                    Está incrustada no meio da Serra do Baú, tem mais de 200m e é a mais alta de São Bento do Sapucaí.
+                                                    O bairro do Toldi também é procurado pelas pessoas que gostam de fazer caminhadas e estarem em contato com a natureza.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.6452295,-45.6190699" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM CACHOEIRA DO TOLDI ***** -->
+
+                            <!-- ***** PEDRA DO BAÚ ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion3" href="#pedra"><strong> Pedra do Baú </strong></a></h4>
+                                </div>
+
+                                <div id="pedra" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/pedra-do-bau.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Localizada no município de São Bento do Sapucaí SP a Pedra do Baú pode ser avistada de diversas cidades da Serra da Mantiqueira.
+                                                </p>
+                                                <p>
+                                                    Com uma grande formação rochosa e altitude máximo de 1.950m, essa formação granítica mede 340m de altura e 540m de comprimento, sendo que suas encostas chegam a medir 180m de altura.
+                                                </p>
+                                                <p>
+                                                    A Pedra do Baú pertence a um complexo de três grande formações rochosas: o Bauzinho, Baú e a Pedra da Ana Chata. Esse complexo fica em uma área particlar de presrvação permanente.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.68463768,-45.6553334" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** PEDRA DO BAÚ ***** -->
+                        </div>
+                        <div id="licitacao2015"></div>
+                    </div>
+                    <!-- ***************************
+                         ***** FIM ROTEIRO III *****
+                         *************************** -->
+
+                    <!-- **********************
+                         ***** ROTEIRO IV *****
+                         ********************** -->
+                    <div role="tabpanel" class="tab-pane fade" id="2016">
+
+                        <div>
+                            <img src="images/ico/icon-map.png" alt="Ícone de mapa do roteiro" width="80" style="padding-right: 20px;"/>
+                            <p>ROTEIRO 4 - GAVIÃO GONZAGA</p>
+                        </div>
+
+                        <div class="panel-group" id="accordion4" role="tablist">
+
+                            <!-- ***** CENTRO DE LAZER TARUNDÚ *****-->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion4" href="#tarundu"><strong>Centro de Lazer Tarundú</strong></a></h4>
+                                </div>
+
+                                <div id="tarundu" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/tarundu.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Tarundu quer dizer Em Estado de Graça, mas você pode traduzir como o lugar mais bonito, divertido e agradável para curtir!
+                                                </p>
+                                                <p>
+                                                    São mais de 30 atividades de lazer em contato com a natureza distribuídas em uma área de 500.000 m² à 1.700m de altitude.
+                                                </p>
+                                                <p>
+                                                    No Tarundu você encontra a melhor Pista de Patinação no Gelo do Brasil, Tirolesas com 780m de extensão e 50m de altura, Paintball, Passeios a Cavalo, Pônei, Charrete, Arborismo,
+                                                    Arco e Flecha, Orbit Ball, Water Ball, Air Games, Bungee Trampolim, Brinquedo, Escorrega Bóia e muito mais!
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.766556,-45.603448" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236689595" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3668-9595</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM CENTRO DE LAZER TARUNDÚ ***** -->
+
+                            <!-- ***** AMANTIKIR JARDINS QUE FALAM ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion4" href="#amantikir"><strong>Amantikir Jardins que Falam</strong></a></h4>
+                                </div>
+
+                                <div id="amantikir" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/amantikir.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Criado em Campos do Jordão,estado de São Paulo, no ano de 2007 o Parque amantikir recebe, a cada ano, um maior número de visitantes.
+                                                </p>
+                                                <p>
+                                                    São mais de 700 espécies de plantas ao longo dos 60.000 m², abertos à visitação durante todos os dias do ano.
+                                                </p>
+                                                <p>
+                                                    Considerado pelos usuários do TripAdvisor como
+                                                    A MELHOR OPÇÃO DO QUE FAZER em Campos do Jordão,
+                                                    por quatro anos consecutivos, (2013, 2014, 2015 e 2016),
+                                                    o Parque amantikir vem se destacando como o principal atrativo, tanto para viajantes e operadores turísticos,
+                                                    quanto para estudantes de paisagismo, botânica e pessoas que buscam vivências para o desenvolvimento humano e bem estar junto à natureza.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7832806,-45.6073557" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:12996346784" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 99634-6784</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM AMANTIKIR JARDINS QUE FALAM ***** -->
+
+                            <!-- ***** PESQUEIRO TRUTA AZUL ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion4" href="#pesqueiro"><strong>Pesqueiro Truta Azul</strong></a></h4>
+                                </div>
+
+                                <div id="pesqueiro" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/truta-azul.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    O Pesqueiro e Restaurante Truta Azul é um dos pioneiros em pesca na cidade. Funciona há mais de 25 anos e fica a dois quilômetros do Hotel Toriba e do Tarundu.
+                                                </p>
+                                                <p>
+                                                    Possui vários tanques para criação e dois lagos para pesca da truta arco-íris. Além disso, a tranqüilidade e beleza do local, juntamente com o verde que circunda o pesqueiro,
+                                                    tornam o lugar uma ótima opção de passeio em Campos do Jordão.
+                                                </p>
+                                                <p>
+                                                    O Restaurante do Truta Azul tem um deck com vista panorâmica para o lago, onde você pode saborear calmamente o peixe que acabou de pescar.
+                                                    Dentro do pesqueiro você encontra também três chalés (simples) que podem ser alugados para quem deseja descansar em meio a natureza.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.782462,-45.601476" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236621259" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3662-1259</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM PESQUEIRO TRUTA AZUL ***** -->
+
+                            <!-- ***** VALE DO LAJEADO ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion4" href="#lajeado"><strong>Vale do Lajeado</strong></a></h4>
+                                </div>
+
+                                <div id="lajeado" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/vale-do-lajeado.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Venha conhecer e se hospedar em meio à natureza.
+                                                </p>
+                                                <p>
+                                                    Com chalés limpos e feitos para trazer mais conforto e paz. O Vale Lajeado, conta com varios jardins,
+                                                    e outras atrações naturais para você e sua família
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7811169,-45.5952778" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:12997429461" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 99742-9461</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM VALE DO LAJEADO ***** -->
+
+                            <!-- ***** FAZENDA LENZ ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion4" href="#lenz"><strong>Fazenda Lens</strong></a></h4>
+                                </div>
+
+                                <div id="lenz" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/fazenda-lenz.JPG">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Um cantinho do paraíso em meio as montanhas da Serra da Mantiqueira: visitando Campos do Jordão não deixe de conhecer a Fazenda Lenz,
+                                                    local privilegiado pela natureza e muito conhecido pela produção do famoso LenzCake (bolo inglês feito a base de nozes e especiarias).
+                                                </p>
+                                            </div>
+
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.780758,-45.60526" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236621421" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3662-1421</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM VALE DO LAJEADO ***** -->
+                        </div>
+                        <div id="licitacao2016"></div>
+                    </div>
+                    <!-- **************************
+                         ***** FIM ROTEIRO IV *****
+                         ************************** -->
+
+                    <!-- ***********************
+                         ***** ROTEIRO V *****
+                         *********************** -->
+                    <div role="tabpanel" class="tab-pane fade" id="rotv">
+
+                        <div>              
+                            <img src="images/ico/icon-map.png" alt="Ícone de mapa do roteiro" width="80" style="padding-right: 20px;"/>
+                            <p>ROTEIRO 5 - AUDITÓRIO SANTORO</p>
+                        </div>
+
+                        <div class="panel-group" id="accordion5" role="tablist">
+
+                            <!-- ***** MOSTEIRO DAS MONJAS BENEDITINAS ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion5" href="#mosteiro"><strong> Mosteiro das Monjas Beneditinas </strong></a></h4>
+                                </div>
+
+                                <div id="mosteiro" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/mosteiro.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    A espiritualidade beneditina oferece exatamente o que falta aos nossos tempos...
+                                                    Procura preencher o vazio e curar a fraqueza na qual muitos de nós vivemos, de maneira sensível, humana,
+                                                    íntegra e acessível a uma humanidade estressada, super-estimulada e super- agendada.
+                                                    A espiritualidade beneditina não exige grandes obras ou grandes renúncias, é tecida com a matéria prima da vida cotidiana comum.
+                                                    Simplesmente pede relacionamento. Mostra como relacionar-se com Deus, com os outros e com nosso mais profundo eu.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7370175,-45.595365" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM MOSTEIRO DAS MONJAS BENEDITINAS ***** -->
+
+                            <!-- ***** PALÁCIO ALTO DA BOA VISTA ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion5" href="#palacio"><strong>Palácio Boa Vista</strong></a></h4>
+                                </div>
+
+                                <div id="palacio" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/palacio.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    O Palácio Boa Vista, foi inaugurado em 21 de julho de 1964, pelo então governador Adhemar de Barros,
+                                                    para servir de residência de inverno do Governador. Com o passar dos anos, adquiriu outra função:
+                                                    a de museu aberto ao público.Numa área de quase três mil metros quadrados, dividida em 35 ambientes e 105 cômodos,
+                                                    o Boa Vista abriga um grande acervo  artístico e cultural, como mobiliários dos séculos XVII e XVIII, antiguidades,esculturas,
+                                                    peças decorativas, objetos religiosos, e obras de artistas contemporâneos, como Tarsila de Amaral, Anita Malfatti, Aldo Bonadei,
+                                                    com destaque para os quadros de Di Cavalcanti.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7357508,-45.6122624" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM PALÁCIO ALTO DA BOA VISTA ***** -->
+
+                            <!-- ***** AUDITÓRIO CLÁUDIO SANTORO ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion5" href="#auditorio"><strong>Auditório Cláudio Santoro</strong></a></h4>
+                                </div>
+
+                                <div id="auditorio" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/auditorio.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Uma das atrações culturais que não pode ficar fora da sua programação de passeios em Campos do Jordão, está o Auditório Claudio Santoro,
+                                                    o principal palco do maior evento da música erudita na América Latina: Festival Internacional de Campos do Jordão.
+                                                </p>
+                                                <p>
+                                                    Inaugurado em março de 1979, pelo Governador Paulo Egídio e seu secretário de Cultura, Ciência e Tecnologia, Max Feffer,
+                                                    o Museu Felícia Leirner e o Auditório Claudio Santoro possuem uma área de 35 mil metros quadrados, remanescente da Mata Atlântica,
+                                                    e é um dos principais espaços culturais de Campos do Jordão, recebendo apresentações de danças, músicas, congressos e convenções, com capacidade para 814 pessoas,
+                                                    além de salas acústicas individuais, amplos camarins, salas de ensaio, área técnica e o salão de entrada conta com um lounge e espaço para café.
+                                                    O auditório também conta com equipamentos de acessibilidade, como rampas, elevador para cadeirantes e banheiros adaptados.
+                                                </p>
+                                                <p>
+                                                    A sala em formato de anfiteatro utiliza o desnível natural do terreno para a colocação da plateia, com cobertura em laje, quadrada e com paredes de vidro,
+                                                    o que permite um contato com o ambiente exterior, integrando e contemplando a mata nativa que rodeia o local. Anexas à plateia, situam-se as instalações de palco e serviços.
+                                                    O foyer está posicionado na parte superior da plateia, formando uma esplanada com a cobertura.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7426748,-45.6338985" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:12997165017" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 99716-5017</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM AUDITÓRIO CLÁUDIO SANTORO ***** -->
+
+                            <!-- ***** MUSEU FELÍCIA LERNER ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion5" href="#felicia"><strong>Museu Felícia Lerner</strong></a></h4>
+                                </div>
+
+                                <div id="felicia" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/felicia.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    O acervo do museu reúne 85 esculturas da artista, são 44 esculturas de bronze, 39 de cimento branco e 2 de granito,
+                                                    que expressam claramente a paixão da escultora pelas formas da natureza. O conjunto de uma obra dividida em cinco fases: Figurativa (1950 a 1958),
+                                                    A caminho da abstração (1958 a 1961), Abstrata (1963 a 1965), Orgânica (1966 a 1970) e Recortes na paisagem (1980 a 1982).
+                                                </p>
+                                                <p>
+                                                    Em 2009, por meio da ACAM Portinari, foi  iniciado o projeto de restauro das obras do museu. O restaurador Júlio Moraes foi responsável pela recuperação das obras.
+                                                    A primeira etapa do processo contemplou as peças feitas em cimento, que passaram por uma restauração estrutural, desde a manutenção do concreto armado até a pintura com cal branca.
+                                                    Na segunda e última etapa, realizada em 2010, as obras em bronze tiveram suas bases de tijolos trocadas por cimento aparente e foram polidas para recuperar o brilho.
+                                                </p>
+                                                <p>
+                                                    O museu investe na conservação preventiva das obras com um programa permanente e detalhado para evitar que as peças se desgastem excessivamente com a ação do tempo
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.743852,-45.632977" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236626000" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3662-6000</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM MUSEU FELÍCIA LERNER ***** -->
+
+                            <!-- ***** BARONESA CAFÉ ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion5" href="#baronesa"><strong>Baronesa Café</strong></a></h4>
+                                </div>
+
+                                <div id="baronesa" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/baronesa-cafe.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    A Fazenda Baronesa Von Leithner fica localizada no bairro Alto da Boa Vista, uma área nobre de Campos do Jordão. Cercada por uma reserva ambiental do 110 alqueires,
+                                                    a fazenda abriga espaços muito interessantes, como a Baronesa Von Leithner Café e Empório Vintage, Landscape e Bistrô.
+                                                    Sendo a primeira e uma das maiores fazendas cultivadoras de frutas vermelhas de que se tem notícia no Brasil,
+                                                    a Baronesa Von Leithner possui as melhores geleias e compotas de todo o país. Venha conhecer o melhor e mais variado complexo gastronômico de região serrana de Campos do Jordão.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7395288,-45.622383" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236621121" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3662-1121</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM BARONESA CAFÉ ***** -->
+                        </div>
+                        <div id="roteiroV"></div>
+                    </div>
+                    <!-- ***********************
+                         **** FIM ROTEIRO V ****
+                         *********************** -->
+
+                    <!-- **********************
+                         ***** ROTEIRO VI *****
+                         ********************** -->
+
+                    <div role="tabpanel" class="tab-pane fade" id="rotvi">
+
+                        <div>
+                            <img src="images/ico/icon-map.png" alt="Ícone de mapa do roteiro" width="80" style="padding-right: 20px;"/>
+                            <p>ROTEIRO 6 - CERVEJARIA BADEN BADEN</p>
+                        </div>
+
+                        <div class="panel-group" id="accordion6" role="tablist">
+
+                            <!-- ***** CERVEJARIA BADEN BADEN ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion6" href="#baden"><strong> Cervejaria Baden Baden </strong></a></h4>
+                                </div>
+
+                                <div id="baden" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/fabrica-de-cerveja-baden.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Visitas guiadas apresentam todo o processo de fabricação das cervejas artesanais da casa. Durante o tour,
+                                                    o público também recebe dicas de degustação e harmonização e ainda experimenta os chopes Cristal e Bock. É preciso agendar com antecedência.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7479151,-45.620293" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:08007710123" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>0800 771 0123</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM CERVEJARIA BADEN BADEN ***** -->
+
+                            <!-- ***** SÍTIO API LEVY ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion6" href="#sitio"><strong> Sítio Api Levy </strong></a></h4>
+                                </div>
+
+                                <div id="sitio" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/apilevy.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    O Sítio do Quintal fica localizado em um vale há aproximadamente 1100m de altitude e é cercado pelas montanhas típicas da região de Campos do Jordão.
+                                                </p>
+                                                <p>
+                                                    É uma propriedade pequena com água de mina, reserva de mata, horta de folhagem, legumes e ervas aromáticas, e também uma área rica em animais silvestres.
+                                                </p>
+                                                <p>
+                                                    A temperatura é amena, ao redor de 22ºC nos períodos mais quentes e chegando perto de 0ºC nas madrugadas cobertas por geada durante o inverno.
+                                                </p>
+                                                <p>
+                                                    Respira-se o ar puro de montanha e ouve-se os sons das aves e dos pequenos córregos.
+                                                </p>
+                                                <p>
+                                                    É neste lugar que o casal paulistano decidiu ter quatro filhos: Vicente, Marina, Marta, Clarissa e vê-los crescer, felizes.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7723422,-45.6496905" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236621091" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3662-1091</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM SÍTIO API LEVY ***** -->
+
+                            <!-- ***** CHOCOLATE MONTANHÊS ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion6" href="#montanhes"><strong> Chocolate Montanhês </strong></a></h4>
+                                </div>
+
+                                <div id="montanhes" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/montanhes.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    Uma cidade que cresceu ao longo dos anos entre florestas e vales recortados pelo Rio Capivari, a 1750 metros de altitude, atraiu e acolheu definitivamente, em 1979, o Chocolate Montanhês.
+                                                </p>
+                                                <p>
+                                                    Sem dúvida alguma foi o seu clima agradável, com fortes características européias,
+                                                    que incentivou o Chocolate Montanhês a trazer os segredos da fabricação artesanal do chocolate para Campos do Jordão. E assim, durante os últimos 32 anos,
+                                                    a beleza e o clima ideal da cidade, aliados ao carinho e cuidados empregados na produção dos bombons e barras, vem deliciando e aquecendo moradores e turistas de todo o Brasil.
+                                                </p>
+                                                <p>
+                                                    O carinho do artesão unido à qualidade de novas tecnologias: Esse é o segredo do Chocolate Montanhês, há 32 anos o preferido de Campos do Jordão.
+                                                    Uma paixão em forma de bombons, trufas, tabletes, barras, drágeas ou ramas de chocolate branco, ao leite e meio-amargo, com castanhas, amêndoas, nozes, avelãs ou licores.
+                                                </p>
+                                                <p>
+                                                    As mais cobiçadas delícias de Campos do Jordão são produzidas em uma fábrica com 1500 metros quadrados de área construída, em um terreno de 5000 metros,
+                                                    com sistema de controle de temperatura e umidade e modernas máquinas para a fabricação de chocolates,
+                                                    além de completo sistema de tratamento de efluentes que atendem às mais rigorosas normas ambientais.
+                                                </p>
+                                                <p>
+                                                    É impossível pensar em Campos do Jordão e não lembrar do Chocolate Montanhês. É uma história de dedicação à qualidade e ao sabor do mais gostoso chocolate. Um convite ao bom gosto.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7189052,-45.5666239" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM CHOCOLATE MONTANHÊS ***** -->
+
+                            <!-- ***** PARQUE DAS CEREJEIRAS ***** -->
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion6" href="#cerejeiras"><strong> Parque das Cerejeiras </strong></a></h4>
+                                </div>
+
+                                <div id="cerejeiras" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <div class="container-fluid">
+                                            <div class="row rotImg">
+                                                <img class="img-responsive" src="images/roteiro/sakura-cerejeira.jpg">
+                                            </div>
+
+                                            <div class="row rotDesc">
+                                                <p>
+                                                    A partir da segunda quinzena de julho, até a primeira quinzena de agosto, os visitantes de Campos do Jordão irão encontrar sensibilidade,
+                                                    aroma, sabor e beleza na Festa da Cerejeira que acontece todos os anos na cidade.
+                                                </p>
+                                                <p>
+                                                    Localizado no Bosque São Francisco Xavier, próximo ao Sanatório São Francisco, antigo Sanatório Dojinkai,
+                                                    o Parque das Cerejeiras é uma das principais atrações turísticas de Campos do Jordão.
+                                                </p>
+                                                <p>
+                                                    No início da primavera, as cerejeiras — conhecidas no Japão como Sakura — florescem emprestando à paisagem do Bosque um visual matavilhoso e romântico.
+                                                </p>
+                                                <p>
+                                                    As primeiras cerejeiras, vindas do Japão e da variedade Takasago, foram plantadas em 1936, por ocasião da inauguração do Sanatório Dojinkai.
+                                                    Adaptaram-se bem ao clima de Campos do Jordão e continuaram apresentando belas floradas todo início de primavera. Posteriormente, foram introduzidas outras variedades tais como Taizan,
+                                                    Botan, Amazonas, Okinawa, esta mais precoce e que floresce no inverno, Benifuken, Yoshiro, Oshima, Yoko, Some Yoshino. Desta última variedade existem 500 mudas no Palácio da Boa Vista.
+                                                    Variedades híbridas forma conseguidas através do enxerto entre espécies diferentes.
+                                                </p>
+                                                <p>
+                                                    Entre os pioneiros do Sakura em Campos do Jordão, destacaram-se o Dr. Shizue Hosoe, Mário Utyiama e Hirofumi Haruma.
+                                                </p>
+                                                <p>
+                                                    A Festa da Cerejeira em Flor foi instituída oficialmente em 1968, pelo então prefeito em exercício, Arakaki Masakasu e, desde então, vem atraindo, ano após ano,
+                                                    cada vez mais turistas de todas as regiões do Brasil, principalmente os japoneses e seus descendentes, saudosos do espetáculo da florada do Sakura.
+                                                </p>
+                                                <p>
+                                                    Campos do Jordão é a única região do Brasil onde o Sakura se aclimatou perfeitamente e todos os anos produz belas floradas.
+                                                </p>
+                                                <p>
+                                                    Campos do Jordão é a única região do Brasil onde o Sakura se aclimatou perfeitamente e todos os anos produz belas floradas.
+                                                </p>
+                                                <p>
+                                                    A Festa da Cerejeira em Flor, traz além do espetáculo da florada do Sakura, feira de artesanatos regionais, comidas e danças típicas e a confraternização da Colônia Japonesa em seus melhores moldes.
+                                                </p>
+                                                <p>
+                                                    O Parque das Cerejeiras fica exatamente na Rua Tassaburo Yamagushi, 2173 – Vila Albertina, em Campos do Jordão.
+                                                </p>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-map-marker"></i>
+                                                </div>
+                                                <a href="https://maps.apple.com/maps?saddr=Current+Location&daddr=-22.7614986,-45.6205842" target="new" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>Traçar rota com GPS</h3>
+                                                </a>
+                                            </div>
+
+                                            <div class="row fundo">
+                                                <div class="col-xs-2 col-sm-2 rotIcons">
+                                                    <i class="glyphicon glyphicon-earphone"></i>
+                                                </div>
+                                                <a href="tel:1236622911" class="col-xs-10 col-sm-10 rotInfo">
+                                                    <h3>(12) 3662-2911</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** FIM PORQUE DAS CEREJEIRAS ***** -->
+                        </div>
+                        <div id="roteirovi"></div>
+                    </div>
+                </div>
+
+                <div class="decoration"></div>
+            </div>
+
+            <!-- Page Footer-->
+
+            <div class="footer">
+                <div class="footer-socials half-bottom">
+
+                    <a href="#" class="footer-up"><i class="fa fa-angle-up"></i></a>
+
+                    <a href="https://pt-br.facebook.com/PousadaModerna/" class="footer-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+
+                <div style="width: 100%; text-align: center;">
+                    <center>
+                        <a href="http://sitenivel.com.br" target="_blank">
+                            <img src="images/logo_sitenivel.png" style="width: 100px; height: auto;" alt="logo sitenivel"/>
+                        </a>
+                    </center>
+                </div>
+            </div>  
+
+        </div>
+    </div>
+</body>
+

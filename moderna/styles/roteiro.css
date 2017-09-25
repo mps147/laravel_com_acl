@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 31, 2016, 9:54:58 AM
+    Author     : SiteNivel
+*/
+
+/*Abas do roteiro*/
+#rot-tabs {background: #d7a860;}
+
+#rot-tabs > li > a{
+    color: #ffffff;
+    background: #d7a860;
+    font-family: Helvetica Neue;
+}
+
+#rot-tabs > li > a:focus{background: rgba(187, 127, 35, 0.68);}
+
+#rot-tabs > .active > a{background: rgba(187, 127, 35, 0.68);}
+/* --------------------------------------------- */
+
+/* Títutlo do Roteiro */
+
+.tab-pane > div > p {
+    font-family: Helvetica Neue;
+    color: #000;
+    font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* -------------------------------------------- */
+
+/* Locais Roteiro */ 
+.panel-default > .panel-heading{
+    background: #d7a860;
+}
+.loc-rot{
+  background-color:  rgba(215, 168, 96, 0.1);
+}
+.panel-heading > h4 > a{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.panel-body {
+    background: rgba(197, 218, 75, 0.15);
+}
+
+/* ------------------------------------------- */
+
+/*Estilização descrição do roteiro*/
+
+.rotImg > img {border: 2px solid #ccc;}
+.rotDesc {
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+.rotDesc > p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.fundo {background: #d7a860;}
+
+.rotIcons, .rotInfo{
+    padding: 0px; 
+    border: 1px solid #fff;
+    height: 50px;
+    padding-top: 12.5px; 
+    text-align: center;
+}
+
+.rotInfo:focus{
+    background: rgba(187, 127, 35, 0.68);
+    text-decoration: none;
+}
+
+.rotIcons > i{font-size: 25px; color: #ffffff;}
+
+.rotInfo:hover{
+    text-decoration: none;
+}
+
+.rotInfo > h3{   
+    height: 50px;
+    font-family: Helvetica Neue;
+    font-size: 18px;    
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+  margin: 0px;
+}
+
+/* -------------------------------------------------- */
